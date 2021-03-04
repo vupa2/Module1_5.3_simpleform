@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+/* Bai 1 */
+#bai1 {
+  max-width: 500px;
+  max-height: 500px;
+  background-color: rgb(159, 252, 221);
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+#bai1 #level-1 {
+  padding: 5px;
+  background-color: white;
+}
+
+#bai1 h2 {
+  background-color: #FF4C00;
+  margin: 5px;
+  padding: 2px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#bai1 form {
+  margin: 5px 30px;
+  line-height: 35px;
+}
+
+#bai1 label.main-label {
+  float: left;
+  text-align: right;
+  width: 100px;
+  padding-right: 15px;
+  color: blue;
+}
+
+#bai1 input[type="text"], input[type="email"] {
+  width: 200px;
+}
+
+#bai1 .checkbox-container {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 100px);
+}
+
+#bai1 .checkbox-small-container > label{
+  color: coral;
+}
+
+#bai1 .btn-container {
+  margin-left: 100px;
+}
+
+/* Bai 2 */
+#bai2 {
+  max-width: 500px;
+  max-height: 500px;
+  background-color: #FFFDA9;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+#bai2 h2 {
+  background-color: #D4FDD6;
+  margin: 0px;
+  padding: 2px;
+  color: blue;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#bai2 form {
+  line-height: 35px;
+}
+
+#bai2 label.main-label {
+  float: left;
+  text-align: left;
+  width: 100px;
+  padding-right: 15px;
+  color: blue;
+}
+
+#bai2 textarea {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#bai2 .btn-container {
+  margin-left: 100px;
+}

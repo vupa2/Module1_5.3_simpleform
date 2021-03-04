@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Bài tập] Tạo form đơn giản</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div id="bai1">
+    <div id="level-1">
+      <h2>Sở thích của bạn</h2>
+      <form action="">
+        <label for="hovaten" class="main-label">Họ và tên</label>
+        <input type="text" name="hovaten" id="hovaten">
+        <br>
+        <label for="email" class="main-label">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+
+        <!-- Checkbox -->
+        <label class="main-label">Sở thích</label>
+        <div class="checkbox-container">
+          <div class="checkbox-small-container">
+            <input type="checkbox" name="hobby" id="thethao">
+            <label for="thethao">Thể thao</label>
+          </div>
+          <div class="checkbox-small-container">
+            <input type="checkbox" name="hobby" id="amnhac">
+            <label for="amnhac">Âm nhạc</label>
+          </div>
+          <div class="checkbox-small-container">
+            <input type="checkbox" name="hobby" id="docsach">
+            <label for="docsach">Đọc sách</label>
+          </div>
+          <div class="checkbox-small-container">
+            <input type="checkbox" name="hobby" id="luotweb">
+            <label for="luotweb">Lướt web</label>
+          </div>
+          <div class="checkbox-small-container">
+            <input type="checkbox" name="hobby" id="choigame">
+            <label for="choigame">Chơi game</label>
+          </div>
+          <div class="checkbox-small-container">
+            <input type="checkbox" name="hobby" id="dienanh">
+            <label for="dienanh">Điện ảnh</label>
+          </div>
+          <div class="checkbox-small-container">
+            <input type="checkbox" name="hobby" id="dulich" value="dulich">
+            <label for="dulich">Du lịch</label>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="btn-container">
+          <input type="submit" value="Gửi thông tin">
+          <input type="reset" value="Nhập lại">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bai 2 -->
+  <div id="bai2">
+    <h2>Đăng ký học viên</h2>
+    <form action="">
+      <label for="hovaten" class="main-label">Họ và tên</label>
+      <input type="text" name="hovaten" id="hovaten">
+      <br>
+      <label for="ngaysinh" class="main-label">Ngày</label>
+      <input type="date" name="ngaysinh" id="ngaysinh">
+      <br>
+      <label for="" class="main-label">Giới tính</label>
+      <div class="radio-container">
+        <input type="radio" name="gioitinh" id="nam" value="nam">
+        <label for="gioitinh">Nam</label>
+        <input type="radio" name="gioitinh" id="nu" value="nu">
+        <label for="gioitinh">Nữ</label>
+      </div>
+      <label for="diachi" class="main-label">Địa chỉ</label>
+      <textarea name="diachi" id="diachi" cols="20" rows="2"></textarea>
+      <br>
+      <!-- Dropdown -->
+      <label for="lop" class="main-label">Lớp</label>
+      <select name="lop" id="lop">
+        <option value="" disabled selected hidden >&#8212;Chọn Lớp&#8212;
+        </option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      <br>
+      <label for="email" class="main-label">Email</label>
+      <input type="email" name="email" id="email">
+      <br>
+      <label for="sdt" class="main-label">Điện thoại</label>
+      <input type="number" name="sdt" id="sdt">
+      <br>
+
+      <!-- Button -->
+      <div class="btn-container">
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Nhập lại">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
